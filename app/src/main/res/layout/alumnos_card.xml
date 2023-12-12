@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Nombre del contacto -->
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre" />
+
+        <!-- Número de teléfono 1 -->
+        <TextView
+            android:id="@+id/textViewTelefono1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teléfono 1" />
+
+        <!-- Número de teléfono 2 -->
+        <TextView
+            android:id="@+id/textViewTelefono2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teléfono 2" />
+
+        <!-- Notas -->
+        <TextView
+            android:id="@+id/textViewNotas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notas" />
+
+        <!-- Direccion -->
+        <TextView
+            android:id="@+id/textViewDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direccion" />
+
+        <!-- Favorito (ícono de estrella) -->
+        <ImageView
+            android:id="@+id/imageViewFavorito"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/outline_favorite_border_black_24dp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

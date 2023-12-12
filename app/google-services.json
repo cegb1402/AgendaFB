@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1094219719570",
+    "firebase_url": "https://agendafb-134ea-default-rtdb.firebaseio.com",
+    "project_id": "agendafb-134ea",
+    "storage_bucket": "agendafb-134ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094219719570:android:a7b0c4eb70f0e7c4a8974b",
+        "android_client_info": {
+          "package_name": "com.trabajo.alumnos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa6IRkwy-VEAPSQmP06iv6fCpRvTFbKU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
